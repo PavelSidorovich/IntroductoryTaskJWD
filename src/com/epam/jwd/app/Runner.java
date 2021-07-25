@@ -1,6 +1,6 @@
 package com.epam.jwd.app;
 
-import com.epam.jwd.model.InvestmentAgreement;
+import com.epam.jwd.app.InvestmentAgreement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
