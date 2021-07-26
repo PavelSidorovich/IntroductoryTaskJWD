@@ -1,9 +1,10 @@
-## JWD Hometask #1
+## Jar архив
 
-В репозитории располагается 3 ветки. В каждой ветке хранятся скриншоты.
+Список использованных команд:
 
-- В ветке [main](https://github.com/PavelSidorovich/hometask1/tree/main) располагается структура файлов, указанная в 1 задании.
+```
+"C:\Program Files\Java\jdk-16\bin\jar.exe" -cef com.epam.jwd.app.Runner fat.jar -C lib .
 
-- В ветке [hierarhy](https://github.com/PavelSidorovich/hometask1/tree/hierarhy) располагается структура файлов, указанная в 4 задании.
+java -jar fat.jar Pavel 10 3000
 
-- В ветке [withMaven](https://github.com/PavelSidorovich/hometask1/tree/withMaven) располагается структура файлов, необходимая для запуска проекта с помощью Maven.
+```
