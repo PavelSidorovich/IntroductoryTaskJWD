@@ -8,3 +8,5 @@
 java -jar fat.jar Pavel 10 3000
 
 ```
+
+![](https://github.com/PavelSidorovich/hometask1/blob/jarFile/screenshots/jar.jpg)
