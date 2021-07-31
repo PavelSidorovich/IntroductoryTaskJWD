@@ -1,6 +1,6 @@
 package com.epam.jwd.app;
 
-import com.epam.jwd.app.InvestmentAgreement;
+import com.epam.jwd.model.InvestmentAgreement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -25,14 +25,12 @@ public class Runner {
 
 	LOGGER.debug("Reaching for operator! The length " +
                          "of invesmentAgreements is " + investmentAgreements.length);
-	System.out.println();
         for (InvestmentAgreement investmentAgreement : investmentAgreements) {
-            System.out.println(investmentAgreement);
+            LOGGER.info(investmentAgreement);
             double interestRate = investmentAgreement.getInterestRate();
             if (interestRate < 0 || interestRate > 20) {
                 LOGGER.warn("Not recommended value (interest rate is " + interestRate + ")!");
             }
-	    System.out.println();
         }
         LOGGER.info("Program ends!");
     }
